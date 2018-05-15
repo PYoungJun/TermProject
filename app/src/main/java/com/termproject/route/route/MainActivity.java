@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         Fragment[] arrFragments = new Fragment[3];
         arrFragments[0] = new RunningFragment();
-        arrFragments[1] = new RunningFragment();
+        arrFragments[1] = new SharingFragment();
         arrFragments[2] = new SettingFragment();
 
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager(),arrFragments);
